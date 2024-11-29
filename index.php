@@ -27,6 +27,7 @@
                 <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" required>
             </div>
             <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            <button type="submit" class="btn btn-primary w-100">Excluir</button>
         </form>
     </div>
 
@@ -44,7 +45,7 @@
         require("users.php"); //chamada do arquivo users.php
 
         if (!isset($_SESSION['users'])) { //se não existir, ele cria
-            $_SESSION['users'] = []; //criando vazio
+            $_SESSION['users'] = [];
         }
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') { //pegando os campos do form
