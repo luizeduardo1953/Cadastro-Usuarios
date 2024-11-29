@@ -27,7 +27,6 @@
                 <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" required>
             </div>
             <button type="submit" class="btn btn-primary w-100">Enviar</button>
-            <button type="submit" class="btn btn-primary w-100">Excluir</button>
         </form>
     </div>
 
