@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Atividade 2611</title>
+    <title>Atividade 26/11</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -44,7 +44,7 @@
         require("users.php"); //chamada do arquivo users.php
 
         if (!isset($_SESSION['users'])) { //se não existir, ele cria
-            $_SESSION['users'] = [];
+            $_SESSION['users'] = []; //criando vazio
         }
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') { //pegando os campos do form
